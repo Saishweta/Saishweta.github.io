@@ -1,7 +1,153 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Saishweta.GitHub.io by Saishweta</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/Saishweta">View On GitHub</a></li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Saishweta.GitHub.io</h1>
+          <p></p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/Saishweta">Saishweta</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>
+<a id="cook-it-up-with-the-fantastic-four" class="anchor" href="#cook-it-up-with-the-fantastic-four" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Cook It Up With The Fantastic Four</strong>
+</h1>
+
+<h2>
+<a id="project-overview" class="anchor" href="#project-overview" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Project Overview</strong>
+</h2>
+
+<p></p><div>
+<a href="#"><img alt="CS109-Dashboard-3 " src="https://public.tableau.com/static/images/CS/CS109-Final-Project/CS109-Dashboard-3/1_rss.png"></a>  </div>
+
+<h3>
+<a id="motivation" class="anchor" href="#motivation" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Motivation</em>
+</h3>
+
+<p>The intent of selecting this project is because of its practicality and application. In a real world scenario, we believe this could be used by common users to get an idea of different cuisines based on a set of ingredients.</p>
+
+<h3>
+<a id="objectives" class="anchor" href="#objectives" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Objectives</em>
+</h3>
+
+<p>Through this project, we sought to answer the following questions:
+1. How different cuisines may be identified based on certain combination of ingredients?
+2. What is the most commonly used ingredient in a cuisine?
+3. What is the distribution of ingredients in different countries?</p>
+
+<h3>
+<a id="approach" class="anchor" href="#approach" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Approach</em>
+</h3>
+
+<p>We began our study by exploring the data set from Kaggle website detailing the ingredients and the corresponding cuisines. A series of exploratory analysis was performed with the hope of understanding the association of the variable with one another in the given data set. We used various modeling techniques to identify the best result. During the exploration phase, it was identified that three algorithms may be used to come up with the predictions: One using Random Forest classification, another using Decision Tree classification and third using Support Vector Machine (SVM).</p>
+
+<h2>
+<a id="modelling" class="anchor" href="#modelling" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Modelling</strong>
+</h2>
+
+<h3>
+<a id="analysis" class="anchor" href="#analysis" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Analysis</em>
+</h3>
+
+<p>The data set used for analysis contains type of cuisine and list of ingredients. The data set used for prediction contains the ingredients list, using which we tried to come up with the most accurate cuisine for that list.</p>
+
+<p>Data set used for analysis:</p>
+
+<p>&lt;-- insert snapshot --&gt;</p>
+
+<p>Data set used for prediction:</p>
+
+<p>&lt;-- insert snapshot --&gt;</p>
+
+<p>We have analyzed 3 different classifiers to model the data namely:</p>
+
+<ol>
+<li>Decision Tree</li>
+<li>Random Forest</li>
+<li>Support Vector Machine (SVM)</li>
+</ol>
+
+<p>During the analysis, we identified the performance and accuracy score of individual classifiers. The graph below indicates the score comparison between the classifiers.</p>
+
+<p>&lt;--insert bar graph--&gt;</p>
+
+<p>Voila! Found the best classifier!! - SVM it is..</p>
+
+<p>The classifier that gave &lt;--accuracy score--&gt; accuracy is SVM, which is the best out of the three. Hence we chose SVM to do our prediction.</p>
+
+<p>The following plots show the comparison of cuisine distribution between the data set used for analysis(train data) and the data set used for prediction(test data)</p>
+
+<p>&lt; -- insert cuisine distribution graph --&gt;</p>
+
+<h2>
+<a id="results" class="anchor" href="#results" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Results</strong>
+</h2>
+
+<p>&lt;-- write description based on graph --&gt;</p>
+
+<p>&lt;-- insert ingredient distribution graph --&gt;</p>
+
+<p>&lt;-- write description based on graph --&gt;</p>
+
+<p>&lt;-- insert ingredient distribution graph --&gt;</p>
+
+<p>&lt;-- write description based on graph --&gt; </p>
+
+<p>&lt;-- insert ingredient-cuisine distribution graph --&gt;</p>
+
+<h2>
+<a id="screencast" class="anchor" href="#screencast" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Screencast</strong>
+</h2>
+
+<p><a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=c52IOlnPw08%0A" target="_blank"><img src="http://img.youtube.com/vi/c52IOlnPw08/0.jpg" alt="Data Science" width="240" height="180" border="10"></a></p>
+
+<h2>
+<a id="links" class="anchor" href="#links" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Links</strong>
+</h2>
+
+<p>github</p>
+
+<p>&lt;-- ipython notebook --&gt;</p>
+
+<p>&lt;-- json files --&gt;</p>
+
+<p>&lt;-- result file --&gt;</p>
+
+<h2>
+<a id="future-work" class="anchor" href="#future-work" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Future Work</strong>
+</h2>
+
+<p>Our future work may include recipe suggestion along with the cuisine based on a set of ingredients and also to identify how feature selection affects the prediction using various classifiers.</p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
 </html>
