@@ -20,7 +20,7 @@
 <a id="Guess What?? IT iSSSSS YUMMMM :)" class="anchor" href="#cook-it-up-with-the-fantastic-four" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Guess What?? IT iSSSSS YUMMMM :)</strong>
 </h1>
 
-<a href="#project-overview">PROJECT OVERVIEW</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#modelling">MODELLING</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#screencast">SCREENCAST</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="#links">LINKS</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#future-work">FUTURE WORK</a></pre>
+<a href="#project-overview">PROJECT OVERVIEW</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#modelling">MODELLING</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#screencast">SCREENCAST</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="#links">LINKS</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#future-work">FUTURE WORK</a></pre>
 
 <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 986px; height: 751px;'><noscript><a href='#'><img alt='CS109-Dashboard-4 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CS&#47;CS109-Final-Project&#47;CS109-Dashboard-4&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='986' height='751' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='CS109-Final-Project&#47;CS109-Dashboard-4' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CS&#47;CS109-Final-Project&#47;CS109-Dashboard-4&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showVizHome' value='no' /><param name='showVizHome' value='no' /><param name='showTabs' value='y' /></object></div>
 <h2>
@@ -59,21 +59,10 @@
 <a id="analysis" class="anchor" href="#analysis" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Analysis</em>
 </h3>
 
-<p>The data set used for analysis contains type of cuisine and list of ingredients. The data set used for prediction contains the ingredients list, using which we tried to come up with the most accurate cuisine for that list.</p>
+<p>The data set used for analysis (also known as a train data set) contains  - Cuisines and the associated list of ingredients. 
+The data set used for prediction (also known as test data set) contains the ingredients list on which the prediction is done in order to come up with the most accurate cuisine for that list.</p>
 
-<p>Based on the analysis made, we came up with the following plot to show the top 10 ingredients:</p>
-<table>
-  <tr>
-    <th>
-      <iframe width="450" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~AngelHenderson/94.embed?share_key=YssG4d6v6ubVcUM91LtFZi"></iframe>
-    </th>
-    <th>
-      <iframe width="450" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~AngelHenderson/100.embed?share_key=jahGo4Xrx9RHfwnwpUPMS1"></iframe>
-    </th>
-  </tr>
-</table>
-
-<p>We have analyzed 3 different classifiers to model the data namely:</p>
+<p>The analysis and modelling was done on these data using three different classifiers namely:</p>
 
 <ol>
 <li>Decision Tree</li>
@@ -81,7 +70,7 @@
 <li>Support Vector Machine (SVM)</li>
 </ol>
 
-<p>During the analysis, we identified the performance and accuracy score of individual classifiers. The graph below indicates the score comparison between the classifiers.</p>
+<p>During the analysis, we identified the performance and accuracy score of individual classifiers which is depicted in graph below.</p>
 
 <iframe width="800" height="600" frameborder="0" scrolling="no" src="https://plot.ly/~AngelHenderson/70.embed?share_key=7GmAgJBlzZLf8iocfUwMhG"></iframe>
 
@@ -95,16 +84,19 @@
 <h2>
 <a id="results" class="anchor" href="#results" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Results</strong>
 </h2>
+<p>Based on the analysis made, we came up with the following plot to show the top 10 ingredients:</p>
+<iframe width="800" height="600" frameborder="0" scrolling="no" src="https://plot.ly/~AngelHenderson/94.embed?share_key=YssG4d6v6ubVcUM91LtFZi"></iframe>
+<iframe width="800" height="600" frameborder="0" scrolling="no" src="https://plot.ly/~AngelHenderson/100.embed?share_key=jahGo4Xrx9RHfwnwpUPMS1"></iframe>
 
 <p>Here we show the comparison between the data analysed and data predicted</p>
 Number of ingredients per cuisine
 <table>
   <tr>
     <th>
-      <iframe width="450" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~AngelHenderson/78.embed?share_key=mOXcj7IO6vXqEtBsKynFZw"></iframe>
+      <iframe width="400" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~AngelHenderson/78.embed?share_key=mOXcj7IO6vXqEtBsKynFZw"></iframe>
     </th>
     <th>
-      <iframe width="450" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~AngelHenderson/82.embed?share_key=8p6gTW8T5Eqg0Yoy2ESzsq"></iframe>
+      <iframe width="400" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~AngelHenderson/82.embed?share_key=8p6gTW8T5Eqg0Yoy2ESzsq"></iframe>
     </th>
   </tr>
 </table>
@@ -112,10 +104,10 @@ The plot ablove indicates the distribution of data for the training set where as
 <table>
   <tr>
     <th>
-     <iframe width="450" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~AngelHenderson/130.embed?share_key=PI4MbfciTxdVroWkDYUrZe"></iframe>
+     <iframe width="400" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~AngelHenderson/130.embed?share_key=PI4MbfciTxdVroWkDYUrZe"></iframe>
     </th>
     <th>
-      <iframe width="450" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~AngelHenderson/136.embed?share_key=i497TsyoEJk8iBvOXshl6t"></iframe>
+      <iframe width="400" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~AngelHenderson/136.embed?share_key=i497TsyoEJk8iBvOXshl6t"></iframe>
     </th>
   </tr>
 </table>
